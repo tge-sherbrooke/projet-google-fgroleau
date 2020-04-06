@@ -1,0 +1,141 @@
+    * 
+    {
+        font-family: Helvetica, Arial, sans-serif;
+
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+
+
+    h1 
+    {
+        color: SeaGreen;
+    }
+
+
+    a
+    {
+        text-decoration: none;
+        color: #262626;
+        background-color: transparent;
+    }
+    a:hover
+    {
+        text-decoration: underline;
+    }
+
+
+    .Hautgauche
+    {
+        position: absolute;
+        left: 0px;
+        top: 10px;
+        
+    }
+
+    .Hautdroit
+    {
+        position: absolute;
+        right: 0px;
+        top:10px;
+    }
+
+    .BasGauche
+    {
+        position: absolute;
+        bottom: 10px;
+        left: 0px;
+    }
+
+    .BasDroite
+    {
+        position: absolute;
+        bottom: 10px;
+        right: 0px;
+    }
+
+    .Pays
+    {
+        position: absolute;
+        left: 0px;
+        bottom: 1.7em;   
+    }
+
+    .googleSign
+    {
+        position: absolute;
+        left: 40%;
+        top: 200px;
+    }
+    .Search input[type= text]
+    {
+        position: absolute;
+        left: 38%;
+        top: 320px;
+
+        padding:6px 220px;
+        font-size: 100%;
+        border: 1px solid #ccc;
+        border-radius: 25px; /*Arrondis les coins*/
+        text-align: left;
+        padding-left: 20px;
+    }
+    .Button
+    {
+        position: absolute;
+        left: 40%;
+        top: 370px;
+    }
+
+    .Button button
+    {
+        height: 30px;
+        width: 150px;
+        border: 1px solid #ccc;
+        border-radius: 25px; /*Arrondis les coins*/
+        background-color: #d9d9d9;
+    }
+    
+    .Google
+    {
+        position: absolute;
+        left : 43%;
+        top : 400px;
+    }
+
+
+    .strip1
+    {
+        position: absolute;
+        bottom: 2em;
+        border-style: groove;
+        border-top-color: #f2f2f2;
+        border-bottom-color: #f2f2f2;
+        border-left-color: #e6e6e6;
+        background-color: #e6e6e6;
+        margin-left:0px;
+        margin-right: 0px;
+        padding: 1em;
+        left : 0px;
+        right: 0px;
+        left: 0px;
+    }
+    .stripGrise
+    {
+        position: absolute;
+        bottom: 0px;
+        border-style: groove;
+        border-top-color: #f2f2f2;
+        border-bottom-color: #f2f2f2;
+        border-left-color: #e6e6e6;
+        background-color: #e6e6e6;
+        text-decoration-color: #e6e6e6;
+        padding: 1em;
+        left : 0px;
+        right: 0px;
+        margin-left:0px;
+        margin-right: 0px;
+
+    }
+
+
