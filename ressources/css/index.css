@@ -3,6 +3,7 @@
         font-family: Helvetica, Arial, sans-serif;
         margin-right: 0%;
         margin-left: 0.5em;
+        margin-right: 0.5em;
     }
 
 
@@ -24,15 +25,18 @@
     }
 
 
+    .top
+    {
+        display: flex;
+        inline-size: 100%;
+    }
+
     .Hautgauche
     {
         position: absolute;
-        display: flex;
-
         font-size: 12px;
         left: 0px;
         top: 10px;
-        
     }
 
     .Hautdroit
@@ -42,30 +46,30 @@
         align-items: center;
         font-size: 12px;
         right: 0px;
+        top:10px;
         top:0px;
     }
 
     .BasGauche
     {
-        order: 1;
-        position: absolute;
-        bottom: 30%;
+        position: relative;
         left: 0%;
         font-size: 75%;
-        flex-shrink: 50%;
     }
 
     .BasDroite
     {
-        order: 2;
-        position: absolute;
-        bottom: 30%;
-        right: 0%;
         font-size: 75%;
-        flex-shrink: 50%;
+        margin-left: auto;
     }
 
-
+    .Pays
+    {
+        font-size: 75%;
+        position: relative;
+        
+        left: 0%;
+    }
     .googleSign
     {
         position: absolute;
@@ -87,7 +91,7 @@
     }
     .Button
     {
-        position: absolute;
+        position: relative;
         left: 40%;
         top: 370px;
     }
@@ -112,6 +116,8 @@
     .strip1
     {
         position: absolute;
+        display: flex;
+        align-items: center;
         border-style: groove;
         border-top-color: #f2f2f2;
         border-bottom-color: #f2f2f2;
@@ -119,30 +125,36 @@
         background-color: #e6e6e6;
         margin-left:0px;
         margin-right: 0px;
-        /*padding: 0.25em;*/
-        bottom: 5%;
+        bottom: 40px;
+        padding: 1em;
+        height: 0.5%;
         left : 0%;
         right: 0%;
-        left: 0%;
-        font-size: 75%;
     }
     .stripGrise
     {
         position: absolute;
         display: flex;
-        /*justify-content: safe;*/
-        bottom: 0%;
         border-style: groove;
         border-top-color: #f2f2f2;
         border-bottom-color: #f2f2f2;
         border-left-color: #e6e6e6;
         background-color: #e6e6e6;
         text-decoration-color: #e6e6e6;
+        bottom: 0%;
+        margin-left:0px;
+        margin-right: 0px;
+        height: 0.6%;
         padding: 1em;
         left : 0%;
         right: 0%;
-        margin-left: 0%;
-        /*max-width: 100%;*/
     }
 
-
+    .Milieu
+    {
+        display: ;
+        right: 50%;
+        left: 50%;
+        bottom: 50%;
+        top: 50%;
+    }
